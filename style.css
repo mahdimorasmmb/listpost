@@ -13,9 +13,12 @@ body,html {
 
 header{
     display: flex;
-    height:15vh;
     justify-content: space-evenly;
     align-items: center;
+    background-color:#c065c0;
+    padding:30px 0px;
+    margin: 0 40px;
+    border-radius:2rem;
 }
 
 h1 {
@@ -31,6 +34,7 @@ button,input {
     font-size: 1.6rem;
     background: white;
     outline: none;
+    border-radius: 2rem;
 }
 button {
     color: #c065c0;
@@ -54,7 +58,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: #E9E4F0;
-    margin: 20px 40px;
+    margin: 0 40px;
     border-radius:2rem;
 }
 #postes{
